@@ -227,8 +227,7 @@ When he’s not working weddings, he spends his time as an accomplished daffodil
                 <div key={service} className="bg-white shadow-md p-6 rounded-xl">
                   <h3 className="text-xl font-semibold mb-2">{service}</h3>
                   <p className="text-gray-700">
-                    Professional, heartfelt, and funny—whatever the role, I bring warmth and structure to your big day.
-                  </p>
+.                  </p>
                 </div>
               ))}
             </div>

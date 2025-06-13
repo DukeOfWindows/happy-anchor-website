@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { FaInstagram, FaFacebookF } from "react-icons/fa";
 
+
 export default function SiteMenu() {
   const [isOpen, setIsOpen] = useState(false);
   const navigate = useNavigate();
@@ -79,22 +80,26 @@ export default function SiteMenu() {
       </nav>
 
       {/* Mobile Menu */}
-      {isOpen && (
-        <div className="md:hidden px-4 pb-4 space-y-3 text-lg font-medium">
-          <a
-            href="/about"
-            className="block text-gray-700 hover:text-red-700 transition"
-            onClick={() => setIsOpen(false)}
-          >
-            About
-          </a>
-          <a
-            href="/wedding-services"
-            className="block text-gray-700 hover:text-red-700 transition"
-            onClick={() => setIsOpen(false)}
-          >
-            Services
-          </a>
+{isOpen && (
+  <div className="md:hidden px-4 pb-4 space-y-3 text-lg font-medium">
+    <button
+      onClick={() => {
+        navigate("/about");
+        setIsOpen(false);
+      }}
+      className="block text-left w-full text-gray-700 hover:text-red-700 transition"
+    >
+      About
+    </button>
+    <button
+      onClick={() => {
+        navigate("/wedding-services");
+        setIsOpen(false);
+      }}
+      className="block text-left w-full text-gray-700 hover:text-red-700 transition"
+    >
+      Services
+    </button>
           <button
             onClick={handleNavigateToTestimonials}
             className="block text-gray-700 hover:text-red-700 transition"
