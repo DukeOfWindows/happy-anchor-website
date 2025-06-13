@@ -144,23 +144,31 @@ const handleNext = () => {
   return (
     <>
       <SiteMenu />
-      <main className="min-h-screen bg-white text-gray-900 font-sans">
-  <section className="relative h-[90vh] bg-center bg-cover" style={{ backgroundImage: "url('/images/hero.jpg')" }}>
-  <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 animate-fade-in-up">
-  <h1 className="font-playfair text-white text-4xl md:text-6xl lg:text-7xl leading-tight drop-shadow-md">
+<main className="min-h-screen bg-white text-gray-900 font-sans">
+  <section className="relative w-full overflow-hidden">
+    {/* Hero Image */}
+    <img
+      src="/images/hero.jpg"
+      alt="Wedding couple smiling"
+      className="w-full h-[60vh] md:h-[80vh] lg:h-[90vh] object-cover object-top md:object-center"
+    />
+    {/* Text Overlay */}
+<div className="absolute inset-0 flex flex-col items-center justify-start text-center px-4 pt-8 sm:pt-12 md:pt-20 animate-fade-in-up">
+  <h1 className="font-playfair text-white text-2xl sm:text-3xl md:text-5xl lg:text-6xl leading-tight drop-shadow-md">
     Celebrant & MC
   </h1>
-  <h2 className="font-playfair text-white text-3xl md:text-5xl lg:text-6xl leading-tight mb-6 drop-shadow-md">
+  <h2 className="font-playfair text-white text-xl sm:text-2xl md:text-4xl lg:text-5xl leading-tight mb-4 drop-shadow-md">
     Hogan Gill
   </h2>
   <a
     href="/wedding-services"
-    className="text-white underline text-lg md:text-xl hover:text-gray-200 transition"
+    className="text-white underline text-sm sm:text-base md:text-lg hover:text-gray-200 transition"
   >
     Services &gt;
   </a>
 </div>
-</section>
+  </section>
+
 <FancyDivider />
         <section className="py-16 px-4 bg-gray-100" id="about">
           <div className="max-w-4xl mx-auto text-center">
