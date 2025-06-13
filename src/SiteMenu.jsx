@@ -29,7 +29,7 @@ export default function SiteMenu() {
 
         {/* Hamburger Button */}
         <button
-          className="md:hidden text-gray-700 focus:outline-none"
+          className="md:hidden text-gray-700 text-3xl focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle menu"
         >
