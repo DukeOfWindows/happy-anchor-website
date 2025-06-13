@@ -37,61 +37,61 @@ export default function ServicesPage() {
         <FancyDivider />
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl font-bold text-red-700 mb-6 animate-fade-in-up">Wedding Services</h1>
-                     <div>
-                      </div> <div className="space-y-10">
- <div>
-  <h2 className="text-2xl font-semibold mb-2 animate-fade-in-up">Celebrant</h2>
-  <p className="text-gray-700 leading-relaxed space-y-4 animate-fade-in-up">
-    Are you after an awesome ceremony?<br />
-    You’ve gotta have an awesome celebrant.
+                     <div className="prose prose-red max-w-none animate-fade-in-up text-gray-700">
+  <h2>Celebrant</h2>
+  <p>
+    Are you after an awesome ceremony? You’ve gotta have an awesome celebrant.
   </p>
-  <p className="text-gray-700 leading-relaxed space-y-4 animate-fade-in-up">
-    An awesome celebrant is someone able to craft a kick-arse story and take all of your guests along on the journey as they tell it. One that can hold a crowd, generate festive vibes, and be just the right amount of bossy to get bums in seats.
+  <p>
+    An awesome celebrant is someone able to craft a kick-arse story and take all of your guests along on the journey as they tell it. One that can hold a crowd, generate those festive vibes, and be just the right amount of bossy to get bums in seats.
   </p>
-  <p className="text-gray-700 leading-relaxed space-y-4 animate-fade-in-up">
-    They are your wing person, your voice, your calming mate — ready to distract you from the nerves or have the tissues ready if it all boils over.
+  <p>
+    They are your wing person, your voice, your calming mate who's ready to distract you from the nerves or have the tissues ready if it all boils over.
   </p>
-  <p className="text-gray-700 leading-relaxed space-y-4 animate-fade-in-up">
-    They’re the one guiding you down to Marriage Town in a way that suits you to a tee — and responsible for making these moments something you’ll remember forever.
+  <p>
+    They’re the one guiding you down to Marriage Town in a way that suits you to a tee — making these moments something you’ll remember forever.
   </p>
 </div>
 
-<div>
-  <h2 className="text-2xl font-semibold mb-2 animate-fade-in-up">Master of Ceremonies (MC)</h2>
-  <p className="text-gray-700 leading-relaxed space-y-4 animate-fade-in-up">
+<div className="prose prose-red max-w-none animate-fade-in-up text-gray-700 mt-12">
+  <h2>Master of Ceremonies (MC)</h2>
+  <p>
     Your MC is your hype person.
   </p>
-  <p className="text-gray-700 leading-relaxed space-y-4 animate-fade-in-up">
-    Hogan will welcome your gorgeous guests as they arrive, compliment their shoes, and guide them to the designated hang-out spot. Immediately before and after the ceremony, he’ll conduct appropriate housekeeping announcements.
+  <p>
+    Hogan will welcome your gorgeous guests as they arrive, compliment their shoes, and guide them to the designated hangout spot. Immediately before and after the ceremony, he’ll deliver appropriate welcoming and housekeeping notes.
   </p>
-  <p className="text-gray-700 leading-relaxed space-y-4 animate-fade-in-up">
-    He’ll assist the photographer with group photos (making this normally painful process fast and efficient), then guide everyone into the reception and introduce the bridal party with flair.
+  <p>
+    He’ll assist your photographer with group photos (making the normally painful process fast and efficient), then guide everyone into the reception and open things up — introducing you and your bridal party with flair!
   </p>
-  <p className="text-gray-700 leading-relaxed space-y-4 animate-fade-in-up">
-    He coordinates the fun and efficient running of the reception, rearranging proceedings as needed. Once formalities are over, he makes sure the party tunes are on, the dance floor is open, and the stars of the show are happy.
+  <p>
+    Hogan coordinates the smooth running of the reception, rearranging the order of proceedings as needed. After the formalities, he lines up the party tunes, sets up the D-floor, and makes sure the stars of the show are having a blast.
   </p>
-  <p className="text-gray-700 leading-relaxed space-y-4 animate-fade-in-up">
-    Want a friend or family member to act as MC? Absolutely! Hogan can coach them — making sure they get all the fun and none of the stress.
+  <p>
+    Want a friend or family member to MC instead? Absolutely! Hogan can coach them so they get all the fun and none of the pressure.
   </p>
 </div>
 
-<div>
-  <h2 className="text-2xl font-semibold mb-2 animate-fade-in-up">Day-of Coordinator</h2>
-  <p className="text-gray-700 leading-relaxed space-y-4 animate-fade-in-up">
-    Teeny bit stressed about pulling all the elements together on the big day?
+<div className="prose prose-red max-w-none animate-fade-in-up text-gray-700 mt-12">
+  <h2>Day-of Coordinator</h2>
+  <p>
+    Feeling a bit stressed about pulling everything together on the big day?
   </p>
-  <p className="text-gray-700 leading-relaxed space-y-4 animate-fade-in-up">
-    With Hogan on the job, you’ll be armed with invaluable advice and wedding wisdom from his many experiences.
+  <p>
+    With Hogan on the job, you’ll receive invaluable advice and golden nuggets of knowledge gathered from years of wedding experience.
   </p>
-  <p className="text-gray-700 leading-relaxed space-y-4 animate-fade-in-up">
-    Leading up to your wedding, you’ll get access to an online planner, helpful templates, and reliable supplier contacts. At the rehearsal, Hogan helps with setup and addresses last-minute dramas.
+  <p>
+    Before the day, you'll get access to an online planner, helpful templates, and trusted supplier contacts. At the rehearsal, Hogan’s there to assist with setup and tackle any last-minute drama.
   </p>
-  <p className="text-gray-700 leading-relaxed space-y-4 animate-fade-in-up">
-    On the day, he arrives hours early to make sure everything is on track — liaising with vendors and solving inevitable hiccups so you can relax and enjoy the ride.
+  <p>
+    On the wedding day, he arrives early to ensure everything is in place. From then on, Hogan becomes the go-to problem solver — liaising with vendors, fixing hiccups, and keeping the day on track.
+  </p>
+  <p>
+    Ultimately, he’s there to help you two relax and truly enjoy your celebration.
   </p>
 </div>
+
           </div>
-        </div>
         <FancyDivider />
         <ImageCarousel images={serviceImages} />
         <FancyDivider />
